@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 600px;
+    height: 500px;
+    border: 1px solid #000;
+    margin: 20px auto;
+}
+.item{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    background: #999;
+    line-height: 80px;
+}
+.static{
+    /* El valor static es el que viene por defecto en los navegadores */
+    /* position: static; */
+    /* background: violet; */
+}
+.relative{
+    /* relative desplaza desde su lugar de posición inicial, en este caso dentro del bloque box y despues de la caja static */
+    /* position: relative;
+    background: violet;
+    top: 30px;
+    bottom: ;
+    left: ;
+    right: 50px; */
+
+}
+.absolute{
+    /* ES LA QUE MAS SE UTILIZA */
+    /* absolute desplaza desde las coordenadas de la pantalla completa */
+    position: absolute;
+    background: violet;
+    top: 30px;
+    bottom: ;
+    left: ;
+    right: 50px;
+}
+.fixed{
+    /* fixed desplaza desde las coordenadas de la pantalla completa, pero
+     mantiene fijo el elemento si se mueve la pagina horizontal o verticalmente */
+    /* position: fixed;
+    background: violet;
+    top: 30px;
+    bottom: ;
+    left: ;
+    right: 50px; */
+}
